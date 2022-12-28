@@ -1,4 +1,4 @@
-class Hello < Formula
+class Mprove < Formula
   desc "Mprove CLI"
   homepage "https://github.com/mprove-io/mprove"
   url "https://github.com/mprove-io/mprove-files/releases/download/v-8.2.0/mprove-cli-macos-v-8.2.0.tgz"
