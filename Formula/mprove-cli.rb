@@ -5,26 +5,26 @@
 class MproveCli < Formula
   desc "Mprove cli files"
   homepage "https://github.com/mprove-io/mprove-cli"
-  url "https://github.com/mprove-io/mprove-cli/archive/refs/tags/12.0.16.tar.gz"
-  version "12.0.16"
-  sha256 "10b69d102a1f5b08ff5c11568b82887c63334744419478038e1b5c91d20832d8"
+  url "https://github.com/mprove-io/mprove-cli/archive/refs/tags/12.0.17.tar.gz"
+  version "12.0.17"
+  sha256 "2e1e9a7620a749e417d6fed8ae7efd17164a67049a5d33741760b70411493ecd"
 
   on_macos do
     on_intel do
-      url "https://github.com/mprove-io/mprove-cli/releases/download/12.0.16/mprove-cli-12.0.16-darwin-amd64.tar.gz"
-      sha256 "ffd735545b23456d7a462ca4314d7d1f7dad78524319d3e5600eb2ddf2297167"
+      url "https://github.com/mprove-io/mprove-cli/releases/download/12.0.17/mprove-cli-12.0.17-darwin-amd64.tar.gz"
+      sha256 "e1e387c4c7ee235a16194bb61f02e05fc5175e6d6ee8cb76febf767f893b0b81"
     end
 
     on_arm do
-      url "https://github.com/mprove-io/mprove-cli/releases/download/12.0.16/mprove-cli-12.0.16-darwin-arm64.tar.gz"
-      sha256 "98bc06d11a93360b54ae3757f296885e96f8a76499c58d4a2cfe975fea7b197f"
+      url "https://github.com/mprove-io/mprove-cli/releases/download/12.0.17/mprove-cli-12.0.17-darwin-arm64.tar.gz"
+      sha256 "151c56cc70636e1dc109c28bb52cb04a33ab641ba70d3625147517ad798a75bf"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/mprove-io/mprove-cli/releases/download/12.0.16/mprove-cli-12.0.16-linux-amd64.tar.gz"
-      sha256 "3cbc22a69bc5f68572a4802ee059095c72a1d004bc8763e54fd8a7b92d2edc07"
+      url "https://github.com/mprove-io/mprove-cli/releases/download/12.0.17/mprove-cli-12.0.17-linux-amd64.tar.gz"
+      sha256 "f010909a107d4254ceaa7835a956bf6a1de3d4482db74adfef559876c5db6cd6"
     end
   end
 
